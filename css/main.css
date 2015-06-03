@@ -3,6 +3,16 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+
+  font-family: 'Open Sans','helvetica',arial,sans-serif;
+  font-weight: 300;
+  color: #62686f;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  font-weight: 300;
 }
 
 .container {
@@ -14,16 +24,15 @@ body {
   background-image: url(../img/banner.jpg);
   margin-top: 98px;
   text-align: center;
-  color: #fff;
-  text-shadow: 0 1px rgba(0,0,0,0.3);
-  font-family: 'Open Sans','helvetica',arial,sans-serif;
   padding: 1px;
 }
 
 .main-header h1 {
   font-weight: 300;
   font-size: 50px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
 
 }
 
@@ -35,4 +44,94 @@ body {
 
   border-radius: 999px;
   box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
+}
+
+.main-nav {
+  background-color: #333;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.main-nav ul li {
+  margin: 15px 10px;
+}
+
+.main-nav ul li a {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+ul.inline-items li {
+  display: inline-block;
+}
+
+.info-section {
+  background-color: #fff;
+  margin-top: -20px;
+  padding: 30px 60px;
+  text-align: center;
+}
+
+.info-section header {
+  padding-bottom: 60px;
+}
+
+h2:after{
+  content:"";
+  display: block;
+  width: 80px;
+  margin: 10 auto 0 auto;
+  border-bottom: 3px solid black;
+}
+
+.info-section header h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.info-section header p{
+
+}
+
+.info-section__description {
+  font-style: italic;
+}
+
+ul.nostyle {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.whatido__skill-list {
+  overflow: hidden;
+}
+
+.whatido__skill {
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 100px;
+  float: left;
+  width: 33.3%;
+}
+
+.whatido__skill--code {
+  background-image: url(../img/skill-code.png);
+
+}
+
+.whatido__skill--design {
+  background-image: url(../img/skill-design.png);
+}
+
+.whatido__skill--product {
+  background-image: url(../img/skill-product.png);
 }
