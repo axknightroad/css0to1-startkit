@@ -135,3 +135,34 @@ ul.nostyle {
 .whatido__skill--product {
   background-image: url(../img/skill-product.png);
 }
+
+.education-experience__list li{
+  padding-bottom: 50px;
+}
+
+.float-left{
+  width: 180px;
+  float: left;
+}
+
+.content {
+  padding-left: 30px;
+  overflow:hidden;
+  text-align: left;
+}
+
+.photos__list {
+  overflow: hidden;
+}
+
+.photos__list li{
+  float: left;
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.photos__list li img{
+  width: 100%;
+
+}
